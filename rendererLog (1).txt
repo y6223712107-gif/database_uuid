@@ -1,0 +1,1871 @@
+2025-08-17 00:43:10.457 [info] [Ventana] Resolving connection token (codespaces)...
+2025-08-17 00:43:10.804 [warning] [Ventana] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-17 00:43:10.805 [warning] [Ventana] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-17 00:43:11.323 [warning] [Ventana] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 27ms.
+2025-08-17 00:43:11.391 [warning] [Ventana] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 23ms.
+2025-08-17 00:43:11.447 [warning] [Ventana] Creation of workbench contribution 'workbench.contrib.chatSetup' took 26ms.
+2025-08-17 00:43:13.391 [warning] [Ventana] Settings pattern "mcp" doesn't match any settings
+2025-08-17 00:43:13.392 [warning] [Ventana] Settings pattern "issueReporter.*" doesn't match any settings
+2025-08-17 00:43:13.394 [warning] [Ventana] Settings pattern "application.experimental.*" doesn't match any settings
+2025-08-17 00:43:13.394 [warning] [Ventana] Settings pattern "application.*" doesn't match any settings
+2025-08-17 00:43:13.395 [warning] [Ventana] Settings pattern "security.*" doesn't match any settings
+2025-08-17 00:43:13.395 [warning] [Ventana] SettingsEditor2: Settings not included in settingsLayout.ts: github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList
+2025-08-17 00:43:17.734 [warning] [Ventana] Settings pattern "mcp" doesn't match any settings
+2025-08-17 00:43:17.735 [warning] [Ventana] Settings pattern "issueReporter.*" doesn't match any settings
+2025-08-17 00:43:17.735 [warning] [Ventana] Settings pattern "application.experimental.*" doesn't match any settings
+2025-08-17 00:43:17.735 [warning] [Ventana] Settings pattern "application.*" doesn't match any settings
+2025-08-17 00:43:17.736 [warning] [Ventana] Settings pattern "security.*" doesn't match any settings
+2025-08-17 00:43:18.330 [warning] [Ventana] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-17 00:43:24.863 [info] [Ventana] Updating additional builtin extensions cache
+2025-08-17 00:43:27.044 [warning] [Ventana] Settings pattern "mcp" doesn't match any settings
+2025-08-17 00:43:27.045 [warning] [Ventana] Settings pattern "issueReporter.*" doesn't match any settings
+2025-08-17 00:43:27.045 [warning] [Ventana] Settings pattern "application.experimental.*" doesn't match any settings
+2025-08-17 00:43:27.045 [warning] [Ventana] Settings pattern "application.*" doesn't match any settings
+2025-08-17 00:43:27.046 [warning] [Ventana] Settings pattern "security.*" doesn't match any settings
+2025-08-17 00:43:27.048 [warning] [Ventana] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-17 00:43:29.248 [error] [Ventana] Error received from starting extension host (kind: Remote)
+2025-08-17 00:43:29.249 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.252 [error] [Ventana] [remote-connection][attempt 1] An error occurred in initial connection! Will retry... Error:
+2025-08-17 00:43:29.252 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.253 [error] [Ventana] [remote-connection][attempt 2] An error occurred in initial connection! Will retry... Error:
+2025-08-17 00:43:29.253 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.254 [error] [Ventana] [remote-connection][attempt 3] An error occurred in initial connection! Will retry... Error:
+2025-08-17 00:43:29.254 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.254 [error] [Ventana] [remote-connection][attempt 4] An error occurred in initial connection! Will retry... Error:
+2025-08-17 00:43:29.254 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.255 [error] [Ventana] [remote-connection][attempt 5]  An error occurred in initial connection! It will be treated as a permanent error. Error:
+2025-08-17 00:43:29.255 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.256 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.260 [error] [Ventana] Cannot register remote filesystem provider. Error while fetching remote environment. exception was thrown by handler. exception: failed to start vs code remote server.
+2025-08-17 00:43:29.295 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.295 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.296 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.296 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.307 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.308 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.783 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:29.820 [warning] [Ventana] Ignoring the error while validating workspace folder vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid - ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid"
+2025-08-17 00:43:29.821 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:30.133 [error] [Ventana] CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid/.vscode/extensions"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.cb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:110822)
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:110548
+2025-08-17 00:43:30.221 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:30.546 [error] [Ventana] ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid"
+2025-08-17 00:43:30.688 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:30.897 [warning] [Ventana] Settings pattern "mcp" doesn't match any settings
+2025-08-17 00:43:30.897 [warning] [Ventana] Settings pattern "issueReporter.*" doesn't match any settings
+2025-08-17 00:43:30.898 [warning] [Ventana] Settings pattern "application.experimental.*" doesn't match any settings
+2025-08-17 00:43:30.898 [warning] [Ventana] Settings pattern "application.*" doesn't match any settings
+2025-08-17 00:43:30.898 [warning] [Ventana] Settings pattern "security.*" doesn't match any settings
+2025-08-17 00:43:31.633 [error] [Ventana] command 'github.codespaces.activate' not found: Error: command 'github.codespaces.activate' not found
+    at GGe.n (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1251:3892)
+    at GGe.executeCommand (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1251:3824)
+2025-08-17 00:43:32.250 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:32.312 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:32.327 [warning] [Ventana] Error getting remote process MCP environment exception was thrown by handler. exception: failed to start vs code remote server.
+2025-08-17 00:43:32.329 [warning] [Ventana] Failed to get installed servers from vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid/.vscode/mcp.json ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid/.vscode/mcp.json"
+2025-08-17 00:43:32.330 [error] [Ventana] CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid/.vscode/mcp.json"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.cb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:110822)
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:110548
+2025-08-17 00:43:32.519 [info] [Ventana] Settings Sync: Account status changed from uninitialized to available
+2025-08-17 00:43:32.703 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:32.845 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:33.475 [error] [Ventana] CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.cb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:110822)
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:110548
+2025-08-17 00:43:33.621 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:34.629 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:34.912 [warning] [Ventana] Settings pattern "mcp" doesn't match any settings
+2025-08-17 00:43:34.912 [warning] [Ventana] Settings pattern "issueReporter.*" doesn't match any settings
+2025-08-17 00:43:34.912 [warning] [Ventana] Settings pattern "application.experimental.*" doesn't match any settings
+2025-08-17 00:43:34.913 [warning] [Ventana] Settings pattern "application.*" doesn't match any settings
+2025-08-17 00:43:34.913 [warning] [Ventana] Settings pattern "security.*" doesn't match any settings
+2025-08-17 00:43:34.985 [info] [Cambios en la nube] Resuming cloud changes, reason: cloud changes enabled...
+2025-08-17 00:43:34.985 [info] [Cambios en la nube] Checking for pending cloud changes...
+2025-08-17 00:43:34.986 [info] [Cambios en la nube] Searching for existing authentication session with ID github-session-sync-service
+2025-08-17 00:43:35.072 [error] [Ventana] ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid/.vscode": CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid/.vscode"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.exists (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:102260)
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:566:21789
+    at async Promise.all (index 0)
+    at async lUe.v (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:566:21896)
+2025-08-17 00:43:35.572 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:39.281 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:40.310 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:40.716 [info] [Cambios en la nube] Found existing authentication session with ID github-session-sync-service
+2025-08-17 00:43:40.967 [info] [Cambios en la nube] Aborting resuming edit session as no edit session content is available to be applied
+2025-08-17 00:43:41.091 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:41.507 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:41.945 [warning] [Ventana] Settings pattern "mcp" doesn't match any settings
+2025-08-17 00:43:41.945 [warning] [Ventana] Settings pattern "application.experimental.*" doesn't match any settings
+2025-08-17 00:43:41.945 [warning] [Ventana] Settings pattern "application.*" doesn't match any settings
+2025-08-17 00:43:41.946 [warning] [Ventana] Settings pattern "security.*" doesn't match any settings
+2025-08-17 00:43:42.917 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:43.201 [warning] [Ventana] Settings pattern "mcp" doesn't match any settings
+2025-08-17 00:43:43.201 [warning] [Ventana] Settings pattern "application.experimental.*" doesn't match any settings
+2025-08-17 00:43:43.202 [warning] [Ventana] Settings pattern "application.*" doesn't match any settings
+2025-08-17 00:43:43.202 [warning] [Ventana] Settings pattern "security.*" doesn't match any settings
+2025-08-17 00:43:43.693 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:43.937 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:43.966 [error] [Ventana] ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid": CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.s (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100821)
+    at async U0t.resolve (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100702)
+    at async _Ct.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3634:27372)
+2025-08-17 00:43:44.045 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:44.613 [warning] [Ventana] Settings pattern "mcp" doesn't match any settings
+2025-08-17 00:43:44.614 [warning] [Ventana] Settings pattern "application.experimental.*" doesn't match any settings
+2025-08-17 00:43:44.614 [warning] [Ventana] Settings pattern "application.*" doesn't match any settings
+2025-08-17 00:43:44.614 [warning] [Ventana] Settings pattern "security.*" doesn't match any settings
+2025-08-17 00:43:45.705 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:49.312 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:50.707 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:43:55.719 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:00.733 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:05.745 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:08.740 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:10.931 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:15.944 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:17.638 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:21.117 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:26.404 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:26.405 [error] [Ventana] ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid": CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.exists (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:102260)
+    at async Promise.all (index 0)
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:9883
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:2158:18262
+2025-08-17 00:44:26.490 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:29.366 [error] [Ventana] CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid/.git/COMMIT_EDITMSG"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.m (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100210)
+    at async U0t.readFileStream (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:104588)
+    at async $1t.L (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:25232)
+    at async $1t.readStream (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:25007)
+    at async Lve.Eb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:12357)
+    at async Lve.resolve (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:10832)
+    at async A1t.W (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:21879)
+    at async MZe.jb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1542:18709)
+    at async TEe.setInput (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:2646:79949)
+2025-08-17 00:44:29.550 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:31.503 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:36.506 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:40.364 [warning] [Ventana] Settings pattern "mcp" doesn't match any settings
+2025-08-17 00:44:40.365 [warning] [Ventana] Settings pattern "application.experimental.*" doesn't match any settings
+2025-08-17 00:44:40.365 [warning] [Ventana] Settings pattern "application.*" doesn't match any settings
+2025-08-17 00:44:40.366 [warning] [Ventana] Settings pattern "security.*" doesn't match any settings
+2025-08-17 00:44:40.368 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:40.501 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:41.194 [error] [Ventana] CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid/.git/COMMIT_EDITMSG"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.m (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100210)
+    at async U0t.readFileStream (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:104588)
+    at async $1t.L (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:25232)
+    at async $1t.readStream (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:25007)
+    at async Lve.Eb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:12357)
+    at async Lve.resolve (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:10832)
+    at async A1t.W (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:21879)
+    at async MZe.jb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1542:18709)
+    at async TEe.setInput (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:2646:79949)
+2025-08-17 00:44:41.762 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:46.894 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:51.898 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:44:56.910 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:02.081 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:07.238 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:08.886 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:12.401 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:14.152 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:17.412 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:21.962 [error] [Ventana] CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid/.git/COMMIT_EDITMSG"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.m (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100210)
+    at async U0t.readFileStream (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:104588)
+    at async $1t.L (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:25232)
+    at async $1t.readStream (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:25007)
+    at async Lve.Eb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:12357)
+    at async Lve.resolve (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:10832)
+    at async A1t.W (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:21879)
+    at async MZe.jb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1542:18709)
+    at async TEe.setInput (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:2646:79949)
+2025-08-17 00:45:22.493 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:26.293 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:27.612 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:32.616 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:37.624 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:42.630 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:47.642 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:48.164 [error] [Ventana] ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid": CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.exists (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:102260)
+    at async Promise.all (index 0)
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:9883
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:2158:18262
+2025-08-17 00:45:52.102 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:57.874 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:45:59.882 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:02.879 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:07.889 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:10.183 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:12.897 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:14.445 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:17.275 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:18.338 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:23.349 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:27.614 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:33.529 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:38.536 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:43.709 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:46.818 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:49.157 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:54.164 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:54.547 [error] [Ventana] CodeExpectedError: ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid/.git/COMMIT_EDITMSG"
+    at U0t.j (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100131)
+    at async U0t.m (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:100210)
+    at async U0t.readFileStream (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3668:104588)
+    at async $1t.L (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:25232)
+    at async $1t.readStream (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:25007)
+    at async Lve.Eb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:12357)
+    at async Lve.resolve (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:10832)
+    at async A1t.W (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3672:21879)
+    at async MZe.jb (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1542:18709)
+    at async TEe.setInput (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:2646:79949)
+2025-08-17 00:46:57.635 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:46:59.481 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:04.518 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:09.529 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:10.884 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:12.249 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:12.966 [error] [Ventana] Error: Unable to resolve resource vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid
+    at RGe.r (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:21642)
+    at RGe.r (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:21628)
+    at async wDt.acquire (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:27:3125)
+    at async AGe.createModelReference (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:22960)
+    at async EN.resolve (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:534:15386)
+    at async Dbe.setInput (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:605:79822)
+    at async cqe.S (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:610:58567)
+    at async cqe.L (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:610:57122)
+    at async cqe.openEditor (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:610:56204)
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:722:23350
+2025-08-17 00:47:14.901 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:16.206 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:19.902 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:21.335 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:24.720 [error] [Ventana] Error: Unable to resolve resource vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid
+    at RGe.r (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:21642)
+    at RGe.r (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:21628)
+    at async wDt.acquire (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:27:3125)
+    at async AGe.createModelReference (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:22960)
+    at async EN.resolve (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:534:15386)
+    at async Dbe.setInput (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:605:79822)
+    at async cqe.S (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:610:58567)
+    at async cqe.L (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:610:57122)
+    at async cqe.openEditor (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:610:56204)
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:722:23350
+2025-08-17 00:47:24.811 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:26.298 [error] [Ventana] Unable to resolve resource vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid: Error: Unable to resolve resource vscode-remote://codespaces%2Bjubilant-xylophone-g4wr4wqppqj6f9jpj/workspaces/database_uuid
+    at RGe.r (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:21642)
+    at RGe.r (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:21628)
+    at async wDt.acquire (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:27:3125)
+    at async AGe.createModelReference (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1226:22960)
+    at async EN.resolve (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:534:15386)
+    at async Dbe.setInput (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:605:79822)
+    at async cqe.S (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:610:58567)
+    at async cqe.L (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:610:57122)
+    at async cqe.openEditor (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:610:56204)
+    at async https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:722:23350
+2025-08-17 00:47:27.340 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:30.412 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:34.305 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:35.544 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:40.559 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:45.748 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:46.861 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:48.380 [error] [Red] #40: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-08-17 00:47:48.392 [error] [Ventana] Failed: exception was thrown by handler. exception: failed to start vs code remote server.
+    at bKe.L (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1266:34898)
+    at async bKe.I (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1266:29317)
+    at async a (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1266:28039)
+    at async bKe.query (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1266:28327)
+    at async wkt.getBuiltInExtensionTranslationsUri (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3710:67169)
+    at async tUt.$fetchBuiltInBundleUri (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:500:78120)
+2025-08-17 00:47:48.394 [error] [Red] #41: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-08-17 00:47:48.396 [error] [Ventana] Failed: exception was thrown by handler. exception: failed to start vs code remote server.
+    at bKe.L (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1266:34898)
+    at async bKe.I (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1266:29317)
+    at async a (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1266:28039)
+    at async bKe.query (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:1266:28327)
+    at async wkt.getBuiltInExtensionTranslationsUri (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:3710:67169)
+    at async tUt.$fetchBuiltInBundleUri (https://assets.github.dev/insider/0ab18bd00955d2a3d69eb66d8eea982b76a53780/out/vs/workbench/workbench.web.main.internal.js:500:78120)
+2025-08-17 00:47:48.498 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:49.534 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:50.758 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:53.060 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:47:56.113 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:01.119 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:03.632 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:05.870 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:11.488 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:16.497 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:19.219 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:21.760 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:25.700 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:26.814 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:28.861 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:30.660 [error] [Ventana] Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:31.984 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:33.538 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:35.111 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:37.987 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:42.990 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:47.993 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:53.190 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:54.781 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:55.893 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:48:57.805 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:03.645 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:08.650 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:13.823 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:17.626 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:18.931 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:23.948 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:31.666 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:36.677 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:41.915 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:43.055 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:49.560 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:53.370 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:54.564 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:49:59.590 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:50:04.602 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:50:09.609 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:50:14.614 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:50:17.710 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:50:19.619 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:50:22.128 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:50:25.134 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:50:30.137 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
+2025-08-17 00:50:35.142 [error] [Ventana] exception was thrown by handler. exception: failed to start vs code remote server.: Error: exception was thrown by handler. exception: failed to start vs code remote server.
+    at Object.onEnd (https://assets.github.dev/static/3920.053df50410af85ebdb9b.js:1:923)
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:24220
+    at https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11477
+    at Array.forEach (<anonymous>)
+    at e.rawOnError (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:11439)
+    at e.onTransportHeaders (https://assets.github.dev/static/commons-bootstrap~pfHelper-grpc-web-client.umd.js.eaa8e3586b6b17406ca1.js:1:9012)
+    at y.<anonymous> (https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:139150)
+    at Generator.next (<anonymous>)
+    at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
+    at new Promise (<anonymous>)
