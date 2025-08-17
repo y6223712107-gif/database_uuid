@@ -1,3 +1,4 @@
+```echo
 2025-08-17 00:43:10.457 [info] [Ventana] Resolving connection token (codespaces)...
 2025-08-17 00:43:10.804 [warning] [Ventana] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
 2025-08-17 00:43:10.805 [warning] [Ventana] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
@@ -1869,3 +1870,5 @@
     at Generator.next (<anonymous>)
     at https://assets.github.dev/static/514.6c284f1fc9c93e4ce3e7.js:1:137082
     at new Promise (<anonymous>)
+
+```
